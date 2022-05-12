@@ -1,0 +1,39 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "F:\\AndroidDev\\leiqiguan_demo_vision3\\openCV4_5\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "F:\\AndroidDev\\leiqiguan_demo_vision3\\openCV4_5\\.cxx\\Debug\\4b6j5w54\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "F:\\AndroidDev\\leiqiguan_demo_vision3\\openCV4_5\\.cxx\\Debug\\4b6j5w54\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "F:\\AndroidDev\\leiqiguan_demo_vision3\\openCV4_5\\.cxx\\Debug\\4b6j5w54\\armeabi-v7a",
+        "opencv_jni_shared"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "opencv_jni_shared",
+      "output": "F:\\AndroidDev\\leiqiguan_demo_vision3\\openCV4_5\\.cxx\\Debug\\4b6j5w54\\armeabi-v7a\\libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

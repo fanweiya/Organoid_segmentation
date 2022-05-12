@@ -1,0 +1,1 @@
+F:\AndroidDev\ncnn-android-yolov5_gpu-taipanlanmingchangV2\openCV4_5\build\intermediates\cxx\Debug\2z2r4s4e\obj\arm64-v8a

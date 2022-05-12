@@ -1,0 +1,7 @@
+Executable : F:\AndroidDev\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+F:\AndroidDev\leiqiguan_demo_vision2\openCV4_5\.cxx\Debug\19506z19\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

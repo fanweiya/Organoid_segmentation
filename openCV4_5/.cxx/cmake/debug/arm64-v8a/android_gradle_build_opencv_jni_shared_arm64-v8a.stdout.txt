@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\AndroidDev\ncnn-android-yolov5_gpu-taipanlanmingchangV2\openCV4_5\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.

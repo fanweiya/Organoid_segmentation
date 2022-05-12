@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segmentation.MainActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/v_input_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/bg_label"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="透光率阈值：" />
+
+            <EditText
+                android:id="@+id/bg_thred"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0" />
+            <TextView
+                android:id="@+id/area_label"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="面积阈值：" />
+
+            <EditText
+                android:id="@+id/area_thred"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0" />
+            <TextView
+                android:id="@+id/sharp_label"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="锐利度阈值：" />
+            <EditText
+                android:id="@+id/sharp_thred"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+            <TextView
+                android:id="@+id/cut_label"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="切片数：" />
+            <EditText
+                android:id="@+id/cut_num"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+            <TextView
+                android:id="@+id/overlap_label"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="重叠度：" />
+            <EditText
+                android:id="@+id/overlap_num"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0.1" />
+            <TextView
+                android:id="@+id/postthrd_label"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="后续切割阈值：" />
+            <EditText
+                android:id="@+id/postthrd_num"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0.5" />
+            <TextView
+                android:id="@+id/postiter_label"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="后续切割参数2：" />
+            <EditText
+                android:id="@+id/postiter_num"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+            <Switch
+                android:id="@+id/CUT_mode"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="切片检测:" />
+            <Switch
+                android:id="@+id/vieworigin"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="显示原图:" />
+            <Button
+                android:id="@+id/detect"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="重新计算" />
+            <Button
+                android:id="@+id/outputresult"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="结果导出" />
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/v_output_info"
+                android:layout_below="@+id/v_input_info">
+
+            <com.baidu.paddle.lite.demo.segmentation.PinchImageView
+                android:id="@+id/iv_input_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:id="@+id/v_output_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+            <TextView
+                    android:id="@+id/tv_output_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scrollbars="vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textAlignment="center"
+                    android:lineSpacingExtra="5dp"
+                    android:singleLine="false"
+                    android:maxLines="5"
+                    android:text=""/>
+
+            <TextView
+                    android:id="@+id/tv_inference_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_output_result"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text=""/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

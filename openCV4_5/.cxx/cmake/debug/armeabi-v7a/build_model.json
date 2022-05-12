@@ -1,0 +1,210 @@
+{
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\armeabi-v7a",
+    "cmakeServerLogFile": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\armeabi-v7a\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cxx\\debug\\armeabi-v7a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\armeabi-v7a",
+      "cmakeToolchain": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-21"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "21"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_shared"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "buildTargetSet": [
+      "opencv_jni_shared"
+    ],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "F:\\AndroidDev\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+      },
+      "cmakeToolchainFile": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx",
+      "gradleModulePathName": ":openCV4_5",
+      "intermediatesFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\build\\intermediates",
+      "makeFile": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\libcxx_helper\\CMakeLists.txt",
+      "moduleBuildFile": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\build.gradle",
+      "moduleRootFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.1.6352462",
+      "project": {
+        "compilerSettingsCacheFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\.cxx",
+        "cxxFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2",
+        "sdkFolder": "F:\\AndroidDev\\SDK",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "F:\\AndroidDev\\SDK\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\build\\intermediates\\cmake\\debug\\obj",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "prefabDirectory": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "F:\\AndroidDev\\ncnn-android-yolov5_gpu-taipanlanmingchangV2\\openCV4_5\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a"
+}

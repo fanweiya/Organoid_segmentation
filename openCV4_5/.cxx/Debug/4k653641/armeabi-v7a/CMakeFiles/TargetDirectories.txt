@@ -1,0 +1,3 @@
+F:/AndroidDev/leiqiguan_demo/openCV4_5/.cxx/Debug/4k653641/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+F:/AndroidDev/leiqiguan_demo/openCV4_5/.cxx/Debug/4k653641/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/AndroidDev/leiqiguan_demo/openCV4_5/.cxx/Debug/4k653641/armeabi-v7a/CMakeFiles/rebuild_cache.dir

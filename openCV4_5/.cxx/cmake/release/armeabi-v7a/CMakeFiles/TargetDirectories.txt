@@ -1,0 +1,3 @@
+F:/AndroidDev/ncnn-android-yolov5_gpu-taipanlanmingchangV2/openCV4_5/.cxx/cmake/release/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+F:/AndroidDev/ncnn-android-yolov5_gpu-taipanlanmingchangV2/openCV4_5/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/AndroidDev/ncnn-android-yolov5_gpu-taipanlanmingchangV2/openCV4_5/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
